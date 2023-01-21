@@ -1,5 +1,13 @@
 # Folders
 .svn
+.vs
+Debug
+x64
 
 # Files
-
+.env
+database.ini
+*.pdb
+prpclient*.exe
+prpserver*.exe
+prpadmin*.exe
