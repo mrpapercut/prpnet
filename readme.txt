@@ -1,3 +1,8 @@
+!!!
+Do not use this repository! This is a clone of the official repository found at https://sourceforge.net/projects/prpnet/
+Get the code from SourceForge instead, do not rely on this repo!
+!!!
+
 Welcome to PRPNet Client/Server Version 5.3.2 (July 2014)
 
 What is PRPNet?
@@ -21,12 +26,12 @@ What do I need to do to get the client/server running?
 
 What is the PRPNet Server?
     The PRPNet Server is a server program that manages a list of numbers for which
-    the primality is not known.  When a client (see "What is the PRPNet Client?" 
-    above) requests work, the server will use a set of predifined rules to determine 
+    the primality is not known.  When a client (see "What is the PRPNet Client?"
+    above) requests work, the server will use a set of predifined rules to determine
     which candidate number needs a PRP test.  It will then responds to that client
     with the candidate.  When the test is done, it will log the results of the test
     (PRP, prime, or composite).  The server has the ability to perform double-checks
-    to verify that tests were run on stable hardware. 
+    to verify that tests were run on stable hardware.
 
 What is the PRPNet Administration Tool?
     The administration tool is used by the adminstrator of the PRPNet server to
@@ -56,16 +61,16 @@ What does a factor file look like?
 How do I compile/run these programs?
     If you are running Windows, then you can use the provided executables.  They
     were compiled with Visual Studio 2008.  For other environments, these programs can
-    be easily compiled with the supplied makefile.  The default makefile can be 
+    be easily compiled with the supplied makefile.  The default makefile can be
     used with Cygwin under Windows (with the MinGW g++ compiler) and with most unix
     boxes.  There is also a project solution (prpnet.sln) for use with Visual Studio.
-    Once the executable you need is built, you will need to modify the cfg file in the 
-    appropriate directory.  Please refer to that cfg file to understand how to set 
+    Once the executable you need is built, you will need to modify the cfg file in the
+    appropriate directory.  Please refer to that cfg file to understand how to set
     the various configuration parameters.
 
 How do stats work?
     To access stats, just access the server on its defined port, but append the
-    name of a webpage you want to see at the end of that.  At this time the server 
+    name of a webpage you want to see at the end of that.  At this time the server
     supports three stats pages:
        server_stats.html provides a complete web page of the current server.
        user_stats.html provides a complete web page of stats rolled up by user
